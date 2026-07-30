@@ -1,0 +1,116 @@
+The 25 Issues for Your Project
+User Account
+
+Issue 1
+
+As a user, I want to register an account so that I can save my verification history.
+
+Issue 2
+
+As a user, I want to log in securely so that only I can access my account.
+
+Issue 3
+
+As a user, I want to reset my password so that I can recover my account if I forget it.
+
+News Input
+
+Issue 4
+
+As a user, I want to paste a news article URL so that the system can verify its authenticity.
+
+Issue 5
+
+As a user, I want to paste a news paragraph so that I can check whether it is fake or real.
+
+Issue 6
+
+As a user, I want to upload a text file containing a news article so that it can be analyzed.
+
+Verification Process
+
+Issue 7
+
+As a user, I want the AI to extract the news content automatically from a URL.
+
+Issue 8
+
+As a user, I want the AI to compare the news with trusted sources.
+
+Issue 9
+
+As a user, I want the AI to search multiple reputed news websites before making a decision.
+
+Issue 10
+
+As a user, I want the system to classify the news as Real or Fake.
+
+Issue 11
+
+As a user, I want to see the confidence score of the AI prediction.
+
+Issue 12
+
+As a user, I want an explanation of why the news was marked fake or real.
+
+Trusted Sources
+
+Issue 13
+
+As a user, I want to view trusted news articles related to my search.
+
+Issue 14
+
+As a user, I want to know which trusted websites were used for verification.
+
+Issue 15
+
+As a user, I want to know when no trusted source confirms the news.
+
+User Dashboard
+
+Issue 16
+
+As a user, I want a dashboard showing my recent searches.
+
+Issue 17
+
+As a user, I want to view my previous verification history.
+
+Issue 18
+
+As a user, I want to delete my previous searches.
+
+Interface
+
+Issue 19
+
+As a user, I want a simple homepage that is easy to use.
+
+Issue 20
+
+As a user, I want the website to work on mobile and desktop devices.
+
+Issue 21
+
+As a user, I want search results to appear quickly.
+
+Admin
+
+Issue 22
+
+As an administrator, I want to manage trusted news sources.
+
+Issue 23
+
+As an administrator, I want to review incorrect AI predictions.
+
+Issue 24
+
+As an administrator, I want to manage user accounts.
+
+Feedback
+
+Issue 25
+
+As a user, I want to report an incorrect prediction so that the system can improve.
