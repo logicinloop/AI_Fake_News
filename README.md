@@ -126,3 +126,52 @@ Gargi : Vision Document, GitHub Repository Setup, Architecture Diagram, Developm
 Ananya :  GitHub Issues (User Stories), MoSCoW Prioritization, Figma Wireframes, Project Planning Board, UI Planning, Documentation Review,README Documentation
 
 We both members collaborated throughout the project by discussing features, reviewing documentation, and validating the overall project design.
+
+
+## Software Design
+
+The system follows a modular and user-focused software design approach. The frontend is divided into reusable components such as navigation, cards, buttons, analysis sections, and result views. The application separates user interaction, verification logic, and data handling to improve maintainability and support future backend integration.
+
+### Design Principles Applied
+
+- **Abstraction:** Implementation details are hidden behind reusable components and functions. Common elements such as buttons, cards, navigation, and verification signals are represented as reusable UI components.
+
+- **Modularity:** The application is divided into independent sections such as Home, Authentication, Dashboard, Analyzer, Results, and History. This makes individual features easier to develop, test, and modify.
+
+- **Cohesion:** Each component has a focused responsibility. For example, the Analyzer handles news input and analysis initiation, while the Result section focuses on presenting the credibility assessment.
+
+- **Low Coupling:** Components interact through well-defined props, callbacks, and state rather than directly depending on each other's internal implementation. This makes it easier to modify or replace individual components without affecting the entire system.
+
+### Design Decisions
+
+1. **Dark Teal Visual Theme** – A professional and trustworthy visual style was selected because the application deals with news verification and credibility assessment.
+
+2. **Card-Based Layout** – Cards are used to organize credibility scores, verification signals, and related information into easily readable sections.
+
+3. **Clear Navigation Structure** – Separate sections such as Home, Dashboard, Analyzer, and History allow users to access important functionality quickly.
+
+4. **Visual Credibility Indicators** – Scores, icons, colors, and progress indicators communicate verification results quickly and reduce the amount of text users need to interpret.
+
+5. **Reusable UI Components** – Common elements such as buttons, cards, headings, and signal rows are implemented as reusable components to maintain consistency and simplify future development.
+
+### User-Friendly Design
+
+The user interface is designed to minimize complexity and make the verification process easy to understand. Clear navigation, consistent layouts, readable typography, visual feedback, and simple input controls help users analyze news content with minimal effort. The responsive layout also allows the interface to adapt to different screen sizes and devices.
+
+### Software Architecture Approach
+
+The project follows a component-based architecture on the frontend, where individual UI components are responsible for specific tasks. The frontend is designed to communicate with the backend through defined interfaces, allowing AI-based verification logic, trusted-source comparison, and database operations to be integrated without significantly changing the user interface.
+
+### Maintainability and Future Changes
+
+The design prioritizes maintainability by keeping components modular, reusable, and focused on specific responsibilities. This reduces the impact of changes and makes it easier to add new features, modify existing functionality, or replace individual components.
+
+The architecture also supports future expansion such as:
+
+- Integration with a real AI-based fake news detection model
+- Backend API integration
+- Database connectivity for storing analysis history
+- Additional verification and trusted-source APIs
+- User authentication and role-based access
+- New dashboard and analytics features
+- Improved responsive support for different devices
